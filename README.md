@@ -137,7 +137,7 @@ GITHUB_TOKEN=your_secure_personal_access_token_scope
 Instantiate dependencies and trigger your local Uvicorn development server:
 
 ```bash
-python -m uvicorn main:app --reload
+python -m uvicorn main: app --reload
 
 ```
 
@@ -145,7 +145,7 @@ python -m uvicorn main:app --reload
 
 ### 3. Frontend Client Ingestion
 
-Simply deploy the root user interface shell directly through your native operating system file executor paths or double-click to load:
+Deploy the root user interface shell directly through your native operating system file executor paths or double-click to load:
 
 ```text
 C:/Users/dev/RepoInsight/index.html
@@ -158,9 +158,4 @@ C:/Users/dev/RepoInsight/index.html
 
 * **Credential Isolation:** The local variables vault (`.env`) is strictly monitored by `.gitignore` rules. API orchestration tokens never leak or expose themselves in client bundle structures.
 * **State Resets:** The `goHome()` routine strips existing query strings out of active volatile memory variables whenever a user returns to the landing screen, preventing data cross-contamination.
-
-```
-
-
-
-Your dashboard profile tracking views are now updated! Let me know if you need any adjustments to your deployment instructions.
+Employment instructions.
